@@ -1,0 +1,23 @@
+<html>
+  <head>
+    <title>RANDOM NUMBER GENERATOR</title>
+    <style>
+      #output{
+        font-family: cursive;
+      }
+
+    </style>
+  </head>
+  <body>
+    <h2>RANDOM NUMBER GENERATOR </h2>
+    <div>
+      <button onclick="getword()">generate</button>
+    </div>
+    <p id="output"></p>
+    <script>
+      function getword(){
+        document.getElementById('output').innerHTML=(Math.floor(Math.random()*100));
+      }
+    </script>
+  </body>
+</html>
