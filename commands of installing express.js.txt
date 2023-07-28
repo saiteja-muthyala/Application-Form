@@ -1,0 +1,34 @@
+-> node --version : The node --version command is used to check the version of Node.js that is installed on your system. It is a simple command that can be run from the command line.Current version is 18.17.0
+
+
+-> npm --version : The node --version command is used to check the version of Node.js that is installed on your system. It is a simple command that can be run from the command line.Current version is 9.8.0
+
+
+-> express --version : The express --version command is used to check the version of Express that is installed on your system. Express is a web application framework for Node.js, and it is used to create web applications and APIs.Current version of express is 4.16.1
+
+
+-> npm install -g express-generator : The command npm install -g express-generator installs the Express generator globally on your system. This means that you can use the express command from any directory.The command will install the Express generator and its dependencies. Once the installation is complete, you can use the express command to create new Express applications.
+Example :npm install -g nodemon
+
+
+-> npm install : The npm install command is used to install JavaScript packages. It is a powerful command that can be used to install a wide variety of packages, from small utilities to large frameworks.
+The basic syntax for the npm install command is as follows:
+npm install [package-name]
+For example, to install the Express framework, you would run the following command:
+npm install express
+This will install the Express package and its dependencies. Once the installation is complete, you can use the Express framework in your Node.js applications.
+
+
+-> express : The express command is used to create and manage Express applications. It is a powerful command that can be used to do a variety of tasks, such as creating new applications, starting and stopping applications, and managing application dependencies.
+
+
+-> npm audit fix --force:The npm audit fix --force command is used to automatically fix security vulnerabilities in your Node.js dependencies. The --force option tells npm to ignore any warnings about breaking changes that may occur when updating your dependencies.
+
+
+-> SET DEBUG=[project-name]:* :The command SET DEBUG=project-restaurant:* ; npm start is used to start an Express application in debug mode. The DEBUG environment variable is used to specify which parts of your application you want to debug. In this case, the DEBUG environment variable is set to [project-name]:*, which means that all of the code in the [project-name] directory and its subdirectories will be debugged.
+
+
+-> npm start : The npm start command is used to start an Express application. The npm start command will first install any dependencies that are not already installed, and then it will start the application.
+
+
+-> nodemon :nodemon is a tool that helps develop Node.js based applications by automatically restarting the node application when file changes in the directory are detected.
